@@ -1,0 +1,255 @@
+.first {
+    display: flex;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-bottom-width: 60%;
+    border-bottom-color: whitesmoke;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:60%;
+    height: 25px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100px; 
+    height: 25px; 
+}   
+
+.kakao {
+    width: 80px;
+    height: 20px;
+}
+
+.search{
+    background-color: white;
+    display: flex;
+    justigy-content: center;
+    align-items: center;
+    width: 200px;
+    height: 20px;    
+    border: 1px solid whitesmoke
+}
+#search {
+    border-style: none;
+}
+
+.login_nav{
+    display: flex;
+    jutify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    width:60px;
+    height: 30px;
+}
+
+.signup{
+    width:60px;
+    height: 30px;
+}
+
+
+
+
+
+
+.second{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 60%;
+}
+
+.beautiful{
+    width: 180px;
+    height: 150px;
+    margin-left:300px;
+    margin-top: 10px;
+}
+
+.first_explanation{
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.check{
+    width:20px;
+    height:20px;
+    margin-top: 10px;
+}
+
+.follow{
+    width:60px;
+    height:40px;
+    margin-top: 10px;
+}
+
+.second_explanation{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.third_explanation{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+.stories{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 100%;
+    border-bottom-color: whitesmoke;
+}
+
+.lover{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+.story1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.yntcd{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    padding: 3px;    
+}
+
+.story2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.me{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+.story3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.memo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+.story4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tour{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+.story5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ladies{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+.story6{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.material-icons{
+    height: 10px;
+}
+
+
+
+.final{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.f1{
+    width:200px;
+    height:200x;
+}
+
+.f2{
+    width:200px;
+    height:200px;
+}
+
+.f3{
+    width:200px;
+    height:200px;
+}
