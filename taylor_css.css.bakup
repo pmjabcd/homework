@@ -1,14 +1,10 @@
-@media screen and (max-width:375px){
 
-/* .first {
-    width: 100%;
+.first {
     display: flex;
+    justify-content: center;
     border-bottom-style: solid;
-    border-bottom-width: 100%;
-    border-bottom-color: gray; */
-
-.body{
-    width:100%;
+    border-bottom-width: 60%;
+    border-bottom-color: whitesmoke;
 }
 
 .header{
@@ -23,17 +19,16 @@
 
 .logo {
     display: flex;
-    text-align: left;
-    width: 170px; 
-    height: 70px; 
-    margin-left: 10px;
-    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100px; 
+    height: 25px; 
+}   
 
-}
 .kakao {
-    width: 140px;
-    height: 40px;
-    }
+    width: 80px;
+    height: 20px;
+}
 
 .search{
     background-color: white;
@@ -44,42 +39,28 @@
     height: 20px;    
     border: 1px solid whitesmoke
 }
-/* #search {
+#search {
     border-style: none;
-} */
+}
 
 .login_nav{
     display: flex;
-    jutify-content: flex-end;
-}
-.login{
-    width:80px;
-    height: 40px;
-    margin-left: 150px;
-    margin-top: 15px;
+    jutify-content: space-between;
+    align-items: center;
 }
 
-.openapp{
-    width:140px;
-    height: 60px; 
-
-
-/* .button {
-    display: felx;
-    justify-content: flex-end;
+.login {
+    width:60px;
+    height: 30px;
 }
 
-.button_login{
-    background-color: white;
-    width: 150px; 
-    color:#0095F6
+.signup{
+    width:60px;
+    height: 30px;
 }
 
-.button_openapp{
-    background-color: #0095F6;
-    width: 300px;
-    color: white; */
-} */
+
+
 
 
 
@@ -90,7 +71,7 @@
 
 .profile{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: row;
     width: 60%;
 }
@@ -98,48 +79,38 @@
 .beautiful{
     width: 180px;
     height: 150px;
-    margin-top: 50px;
+    margin-left:300px;
+    margin-top: 10px;
 }
 
 .first_explanation{
     display: flex;
-    font-size: 40px;
-    margin-top: 30px;
-    columns: #262626;
-    margin-bottom: -27px;
-    margin-left:20px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .check{
-    width:45px;
-    height:45px;
-    margin-top: 40px;
+    width:20px;
+    height:20px;
+    margin-top: 10px;
 }
-
-/* .follow{
-    width:330px;
-    height:30px;
-} */
 
 .follow{
-    background-color: #0095f6;
-    color: white;
-    font-size: 17px;
-    font-weight: bold;
-    width: 310px;
-    height: 43px;
-    border:1px; solid transparent;
-    margin-top:-50px;
-    border-radius: 4%;
-    margin-left: 20px;
-}
+    width:60px;
+    height:40px;
+    margin-top: 10px;
 }
 
+.second_explanation{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+    font-size: 12px;
+}
 
 .third_explanation{
-    font-size: 22px;
-    margin-top:10px;
-    margin-left:20px;
+    font-size: 12px;
 }
 
 
@@ -151,11 +122,11 @@
 
 .stories{
     display: flex;
-    justify-content: flex-around;
-    align-items: flex-end;
-    width: 100%;
+    justify-content: space-around;
+    width: 50%;
     flex-direction: row;
     margin-top: 40px;
+    margin-left: 300px;
     font-size: 10px;
     border-bottom-style: solid;
     border-bottom-width: 100%;
@@ -164,120 +135,102 @@
 
 .lover{
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     border: 1px solid gray;
     padding: 3px;
-    margin:10px;
 }
 
 .story1{
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size:14pt;
 }
 
 .yntcd{
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     border: 1px solid gray;
-    padding: 3px;  
-    margin: 10px;  
+    padding: 3px;    
 }
 
 .story2{
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size:14pt;
 }
 
 .me{
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     border: 1px solid gray;
     padding: 3px;
-    margin: 10px;
 }
 
 .story3{
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size:14pt;
 }
 
 .memo{
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     border: 1px solid gray;
     padding: 3px;
-    margin: 10px;
 }
 
 .story4{
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size:14pt;
 }
 
 .tour{
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     border: 1px solid gray;
     padding: 3px;
-    margin: 10px;
 }
 
 .story5{
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size:14pt;
 }
 
+.ladies{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    padding: 3px;
+}
 
-
-
-.second_explanation{
+.story6{
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    font-size: 20px;
+    flex-direction: column;
+    text-align: center;
 }
 
-.second_add{
-    display: flex;
-    flex-direction: space-between;
-    font-size: 20px;
-    color: gray;
-}
+ 
 
 
 .categories{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 10px;
     font-size: 10px;
-    margin-left: 100px;
 }
 
 .material-icons{
-    height: 30px;
+    height: 10px;
 }
-
-/* .mobilec{
-    display: flex;
-    flex-direction: row;
-} */
 
 
 
@@ -285,8 +238,6 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .f1{
@@ -323,6 +274,4 @@
 .f6{
     width:200px;
     height:200px;
-}
-
 }
